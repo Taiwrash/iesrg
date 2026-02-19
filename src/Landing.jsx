@@ -66,7 +66,7 @@ const Hero = () => {
                     <div className="relative z-10 bg-white dark:bg-gray-900 p-1 rounded-2xl shadow-2xl border border-gray-200 dark:border-white/10">
                         <div className="aspect-square rounded-xl bg-gray-100 dark:bg-black/50 overflow-hidden relative group">
                             <img
-                                src="/logo.png"
+                                src={import.meta.env.BASE_URL + "logo.png"}
                                 alt="IESRG High Res"
                                 className="w-full h-full object-contain p-12 opacity-90 group-hover:scale-105 transition-transform duration-700"
                             />

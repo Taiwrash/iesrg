@@ -55,7 +55,7 @@ const ApplicationForm = () => {
                                     </p>
                                 </div>
                                 <div className="hidden md:block">
-                                    <img src="/logo.png" alt="IESRG" className="h-24 w-auto opacity-90" />
+                                    <img src={import.meta.env.BASE_URL + "logo.png"} alt="IESRG" className="h-24 w-auto opacity-90" />
                                 </div>
                             </div>
 

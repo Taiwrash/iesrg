@@ -22,7 +22,7 @@ import {
 const Logo = () => (
     <Link to="/" className="flex items-center gap-3">
         {/* Using the transparent logo provided */}
-        <img src="/logo-transparent.png" alt="IESRG Logo" className="h-10 w-auto" />
+        <img src={import.meta.env.BASE_URL + "logo-transparent.png"} alt="IESRG Logo" className="h-10 w-auto" />
         <div className="font-heading font-bold text-xl tracking-tight text-gray-900 dark:text-white hidden sm:block">
             IESRG
         </div>
